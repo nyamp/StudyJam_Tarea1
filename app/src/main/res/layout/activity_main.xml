@@ -36,29 +36,28 @@
             android:text="Mr. Wonderful"
             android:layout_gravity="center"
             android:textSize="30dp"
-            android:textStyle="bold"            />
+            android:textStyle="bold"
+            style=""/>
 
         <EditText
             android:id="@+id/editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            style="@style/editText_style"
             android:layout_marginTop="30dp"
-            android:background="#ffff"
             android:hint="Username"
+            android:drawableLeft="@drawable/ic_action_person"
+
+
             />
 
         <EditText
              android:layout_marginTop="5dp"
+             style = "@style/editText_style"
+             android:hint="Password"
+             android:inputType="textPassword"
+             android:drawableLeft="@drawable/ic_action_name"
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-            android:inputType="textPassword"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-             android:background="#fff"/>
+
+             />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,16 +66,10 @@
             >
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="32dp"
+                style="@style/button_style"
                 android:text="Login"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
                 android:textColor="#ffff"
-                android:background="#ec5e8b"
-                android:textSize="25sp"
-                                />
+                   />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -87,24 +80,17 @@
                 android:textSize="15sp"/>
 
                 <Button
-
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    style = "@style/bfb_style"
                     android:text="Sign up with facebook"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginRight="60dp"
                     android:textColor="#fff"
-                    android:background="#61baff"
+
                     />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:text="sign up with email"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginRight="60dp"
+                    style="@style/email_style"
+                    android:text="Sign up with email"
                     android:textColor="#fff"
-                    android:background="#ec5e8b"/>
+                    />
 
         <TextView
             android:layout_width="wrap_content"

@@ -8,4 +8,49 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+        <style name="editText_style">
+            <item name="android:gravity">center</item>
+            <item name="android:background">@drawable/editext_background</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginLeft">60dp</item>
+            <item name="android:layout_marginRight">30dp</item>
+            <item name="android:textColor">#fff</item>
+        </style>
+
+    <style name="button_style" >
+        <item name="android:background">@drawable/button_background</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">35dp</item>
+            <item name="layout_marginTop=">10dp"</item>
+            <item name="android:layout_marginLeft">90dp</item>
+            <item name="android:layout_marginRight">90dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+            <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="bfb_style" >
+        <item name="android:background">@drawable/buttonfb</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="layout_marginTop=">10dp"</item>
+        <item name="android:layout_marginLeft">70dp</item>
+        <item name="android:layout_marginRight">70dp</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
+    <style name="email_style" >
+        <item name="android:background">@drawable/bemail</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="layout_marginTop=">10dp"</item>
+        <item name="android:layout_marginLeft">70dp</item>
+        <item name="android:layout_marginRight">70dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
 </resources>
