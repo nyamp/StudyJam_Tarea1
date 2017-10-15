@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:text="Mr. Wonderful"
             android:layout_gravity="center"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold"
             style=""/>
 
@@ -44,8 +44,8 @@
             style="@style/editText_style"
             android:layout_marginTop="30dp"
             android:hint="Username"
+            android:inputType="textEmailAddress"
             android:drawableLeft="@drawable/ic_action_person"
-
 
             />
 
@@ -55,8 +55,6 @@
              android:hint="Password"
              android:inputType="textPassword"
              android:drawableLeft="@drawable/ic_action_name"
-
-
              />
 
         <LinearLayout
@@ -68,7 +66,7 @@
             <Button
                 style="@style/button_style"
                 android:text="Login"
-                android:textColor="#ffff"
+                android:textColor="#fff"
                    />
             <TextView
                 android:layout_width="match_parent"
